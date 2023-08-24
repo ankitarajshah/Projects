@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font family PT Serif */
+@font-face
+{
+	font-family: PT Serif;
+	src:url(./PT_Serif/PTSerif-Bold.ttf);
+}
+nav{
+    background-color: #b13941;
+    position: relative;
+    overflow: hidden;
+}
+.shape{
+    position: absolute;
+    top: -500px;
+    left: 0;   
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    z-index: 2;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.navbar .bar
+   {
+    display: none;
+    font-size: 25px;
+    color: #f8eed3;
+   }
+#main{
+    background:url(./Images/banner.png)no-repeat center center/cover;
+    text-align: center;   
+    padding: 100px; 
+}
+/* .text{
+    padding: 0px 100px 100px;
+    margin: 0px 200px;
+
+} */
+.text h1{
+    padding: 50px 0px 45px;
+    margin: 0px 80px;
+    font-size: 90px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.text h1+p{
+    padding: 20px 45px;
+    font-size: 21px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+button{
+    background-color: #b13941;
+    padding: 10px 30px;
+    margin: 30px 0px 40px;
+    font-size: 21px;
+    color: #feedda;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+}
+/* Section1 start -giftvoucher */
+.giftvoucher{
+    background:url(./Images/menubg.png);
+    position: relative;
+    overflow: hidden;
+}
+/* .giftshape{
+    position: absolute;
+    top:-85%;
+    left: -10%;
+} */
+.gift{
+    /* background-color: #b13941; */
+    display: flex;   
+    gap: 30px;
+    padding: 50px 100px ; 
+    z-index:2;
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+h3{
+    font-size: 37px;
+color: #feedda;
+font-weight: 400;
+font-family: "Yeseva One";
+}
+h3+p{
+    font-size: 14px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+p+button{
+    font-size: 18px;
+    background-color: #feedda;
+    color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+}
+ /* Section2 start bestcoffee  */
+.bestcoffee{
+    background-color: #f8eed3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.coffee{
+    width: 80%;
+}
+.coffeetext{
+    padding: 50px 30px;
+}
+.coffeetext a{
+    font-size: 20x;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+h2{
+    font-size: 60px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    
+}
+h2+p{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    
+}
+/* Section3 start Menu  */
+.menu{
+    background:url(./Images/menubg.png);
+    position: relative;
+    padding: 60px 20px;
+    /* overflow: hidden; */
+}
+.menu h2{
+    font-size: 58px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.menu p{
+    font-size: 21px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    padding: 20px 100px;
+}
+.menushape{
+    position: absolute;
+    top: -350px;
+    left: -100px;
+}
+.menurow{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    z-index: 20;
+}
+.menutext{
+    background-color: white;
+    padding: 20px ;
+}
+.menutext h3{
+    font-size: 33px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.menutext h5{
+    font-size: 12px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.col-40{
+    width: 40%;
+    display: flex;
+}
+.col-20{
+    width: 20%;
+}
+/* Section4 start Store */
+.store{
+    background-color: #f8eed3;
+    padding: 50px 30px;  
+}
+.store h1{
+    font-size: 58px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.store p{
+    font-size: 21px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    padding: 20px 250px;
+}
+.storerow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;   
+}
+.storerow .box{
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.storeimg{
+    position: relative;
+}
+.storeimg img{
+    width: 100%;
+    object-fit: cover; 
+}
+.storebtn{
+    background-color: #f8eed3;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    position: absolute;
+    top:80%;
+    left:25%;
+}
+.storetext {
+    background-color: white; 
+    text-align: center; 
+    
+}
+.storetext h6{    
+    font-size: 18px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "PT Serif";
+    padding:30px 20px 10px;
+}
+/* Section-5 start companyprofile */
+.row{
+    background: url(./Images/menubg.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 30px;
+}
+.col-50{
+    width: 50%;  
+}
+.row h1{
+font-size: 58px;
+color: #f8eed3;
+font-weight: 400;
+font-family: "Yeseva One";
+padding: 50px;
+}
+.row p{
+font-size: 21px;
+color: #f8eed3;
+font-weight: 400;
+font-family: "PT Serif";
+padding: 20px 50px;
+}
+.rowicons a i{
+    font-size: 22px;
+    padding-left: 50px;
+}
+/* Section-6 start Contactus  */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact h1{
+    font-size: 58px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.contact .col-60{
+    padding: 30px 50px;
+}
+input,textarea{
+    padding: 10px 100px;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    margin-bottom: 20px;
+}
+/* Section-7 start Footer */
+.fcontainer{
+    background-color: #b13941;
+    display: flex;
+    padding: 20px 30px;
+}
+.footer-col h4,a {
+    font-size: 16px;
+    color: #f8eed3;
+    font-family: "EB Garamond";  
+}
+p{
+    font-size: 14px;
+    color: #f8eed3;
+    font-family: "EB Garamond"; 
+    padding: 10px 50px 0 0px;
+}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col{
+    padding: 0px 50px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
