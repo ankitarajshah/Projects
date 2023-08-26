@@ -2,48 +2,74 @@
     .storebtn{ left:15%;}
     .footer-col{padding: 0px 30px;}
 }
+@media (max-width: 992px){
+    .text h1{font-size: 70px;}
+     /* Section2 start bestcoffee  */
+    h2{font-size: 50px;}
+    h2+p{font-size: 16px;}
+
+    /* Section3 start Menu  */
+    .menurow{gap:20px;flex-wrap: wrap;}
+    .menurow .col-33{width: 60%;}
+    .menutext h3{font-size: 25px;}
+    button{padding: 5px;}
+
+    /* Section4 start Store */
+    .store{padding: 10px;}
+    .store p{font-size: 18px;padding: 20px 50px}
+    .storerow .box{padding: 20px 15px;}
+    .storebtn{padding: 10px; top:90%;left:30%;}
+    .storetext h6{font-size: 16px;padding:30px 20px 10px;}
+    button{padding: 5px;}
+    /* Section-6 start Contactus  */
+}
 
 @media (max-width: 768px)
 {  
     .navbar li{display: none;}
-    .navbar .imgbar{display: block;margin-right: 250px;}
-    .navbar .bar{display: block;margin-left: 250px;}
+    .navbar .imgbar{display: block;margin-right:280px;}
+    .navbar .bar{display: block;margin-left: 280px;}
     #main{padding: 50px;}
 
      /* Section1 start -giftvoucher */
-   .gift{padding: 25px 50px;
-    flex-wrap: wrap; }
-   .col-40{width: 100%;}
-    .col-60{width: 100%;}
+    .gift{flex-wrap: wrap;}
+    .logo{margin-left: 150px;}
+    .col-40{width: 100%;}
+    .col-60{width: 100%; text-align: center;}
 
     /* Section2 start bestcoffee  */
-    .coffee{width: 100%;}
+    .coffee{width: 80%; margin-left: 80px;}
     .coffeetext{padding: 30px 20px;}
 
     /* Section3 start Menu  */
     .menurow{padding: 10px 50px; flex-direction:column;gap:10px}
     .menu p{ padding: 20px 30px;}
+    .menurow .col-33{width: 100%;}
     
     /* Section4 start Store */
     .store{padding: 10px;}
     .store p{font-size: 18px;padding: 20px 50px;}
     .storerow{flex-direction:column;}
-    .storerow .box{width: 70%;}
-    .storebtn{padding: 10px 20px;top:110%;left: 30%;}
-    .storetext h6{padding: 120px 30px 20px;}
+    .storerow .box{width: 50%;}
+    .storebtn{padding: 10px 20px;top:90%;left: 30%;}
+    .storetext h6{padding: 30px 20px 10px;}
+  
     
     /* Section-5 start companyprofile */
     .row{flex-direction:column; padding: 50px 60px}
     .row h1{font-size: 40px; padding: 10px;}
     .row p{font-size: 18px;padding: 10px 10px;}
-    .col-50{width: 100%;}
+    .col-50{width: 100%;text-align: center;}
     .rowicons a i{font-size: 22px;padding-left: 10px;}
 
     /* Section-6 start Contactus  */
-
+    .contact{ flex-wrap: wrap;}
+    .contact .col-50 {width: 100%;height: 500px; justify-content: center;place-content: center; }
     /* Section-7 start Footer */
     .fcontainer{flex-wrap: wrap;}
-    .frow{flex-direction:column;}
+    .frowimg{height:50%;width: 50%; padding-left: 30px;}
+    .frow{width: 50%;padding: 10px;text-align: center; }
+    
    
 }
 @media (max-width: 576px) 
@@ -51,11 +77,20 @@
     .navbar .imgbar{display: block;margin-right: 150px;}
     .navbar .bar{display: block;margin-left: 150px;}
 
+      /* Section1 start -giftvoucher */
+      .logo{margin-left: 50px;}
+      /* Section2 start bestcoffee  */
+    .coffee{width: 80%; margin-left: 50px;}
+
     /* Section4 start Store */
-   
-    .storerow .box{width: 100%;}
-    .storebtn{padding: 10px 20px;top:120%;left: 30%;}
+    .store{padding: 10px;}
+    .store p{font-size: 16px;padding: 20px 50px;}
     
+    .storerow .box{width: 60%;}
+    .storebtn{padding: 10px 20px;top:90%;left: 25%;}
+    .storetext h6{padding: 30px 20px 10px;}
+    .frowimg{height:30%;width: 30%; padding-left: 30px;}
+    .frow{width: 100%;text-align: center;}
 }
 
 

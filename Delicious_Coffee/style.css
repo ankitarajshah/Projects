@@ -104,9 +104,13 @@ button{
 }
 .col-40{
     width: 40%;
+    justify-content: center;
+    
+    border: 1px solid ;
 }
 .col-60{
     width: 60%;
+     border: 1px solid ;
 }
 h3{
     font-size: 37px;
@@ -134,9 +138,9 @@ p+button{
     display: flex;
     flex-wrap: wrap;
 }
-.coffee{
+/* .coffee{
     width: 80%;
-}
+} */
 .coffeetext{
     padding: 50px 30px;
 }
@@ -182,23 +186,26 @@ h2+p{
     text-align: center;
     padding: 20px 100px;
 }
-.menushape{
+/* .menushape{
     position: absolute;
     top: -350px;
     left: -100px;
-}
+} */
 .menurow{
     display: flex;
     flex-wrap: nowrap;
     column-gap: 10px;
     z-index: 20;
+    justify-content: center;
+    place-items: center;
+    /* border: 1px solid black; */
 }
 .menutext{
     background-color: white;
-    padding: 20px ;
+    padding: 10px ;
 }
 .menutext h3{
-    font-size: 33px;
+    font-size: 30px;
     color: #010101;
     font-weight: 400;
     font-family: "Yeseva One";
@@ -209,13 +216,13 @@ h2+p{
     font-weight: 400;
     font-family: "PT Serif";
 }
-.col-40{
-    width: 40%;
+.menurow .col-33{
+    width: 33.33%;
     display: flex;
+    /* border: 1px solid; */
 }
-.col-20{
-    width: 20%;
-}
+.menuimg,.menutext{width: 50%;}
+
 /* Section4 start Store */
 .store{
     background-color: #f8eed3;
@@ -238,8 +245,9 @@ h2+p{
 }
 .storerow{
     display: flex;
-    justify-content: center;
     flex-direction: row;   
+    justify-content: center;
+    place-items: center;
 }
 .storerow .box{
     width: 33.33%;
@@ -258,14 +266,14 @@ h2+p{
 }
 .storebtn{
     background-color: #f8eed3;
-    padding: 20px 30px;
-    font-size: 25px;
+    padding: 10px 30px;
+    font-size: 20px;
     color: #b13941;
     font-weight: 700;
     font-family: "PT Serif";
     text-align: center;
     position: absolute;
-    top:80%;
+    top:90%;
     left:25%;
 }
 .storetext {
@@ -304,23 +312,26 @@ font-weight: 400;
 font-family: "PT Serif";
 padding: 20px 50px;
 }
+
 .rowicons a i{
     font-size: 22px;
     padding-left: 50px;
+    
 }
 /* Section-6 start Contactus  */
 .contact{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 .contact h1{
-    font-size: 58px;
+    font-size: 50px;
     color: #b13941;
     font-weight: 400;
     font-family: "Yeseva One";
 }
-.contact .col-60{
-    padding: 30px 50px;
+.contact .col-50{ 
+    width: 50%;
 }
 input,textarea{
     padding: 10px 100px;
@@ -333,7 +344,9 @@ input,textarea{
     background-color: #b13941;
     display: flex;
     padding: 20px 30px;
+  align-items: center; 
 }
+
 .footer-col h4,a {
     font-size: 16px;
     color: #f8eed3;
@@ -343,7 +356,7 @@ p{
     font-size: 14px;
     color: #f8eed3;
     font-family: "EB Garamond"; 
-    padding: 10px 50px 0 0px;
+    /* padding: 10px 50px 0 0px; */
 }
 .footer-col ul li{
     list-style: none;
