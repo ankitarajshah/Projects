@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/mediaquery.css">
+    <!-- BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+     <!-- font-awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
+    <!-- Rajdhani font       -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="bg-dark">
+
+
+
+  
+    <!-- Home section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Logo</a>
+        
+        <div class="container">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+           Menu
+         </button>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" >Home</a>
+            </li>
+          </ul>
+          <form class="form-inline ms-auto">
+            <div class="form-group input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text p-3" ><i class="fa-regular fa-user"></i></span>
+              </div>
+              </div>
+          </form>
+        </div>
+      </nav>
+
+<!-- Offcanvas -->
+<div class="offcanvas offcanvas-start sidebar-nav" style="width: 150px;"  id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Menu</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Home.</p>
+      <p>About.</p>
+      <p>Contact.</p>
+      <button class="btn btn-secondary" type="button">A Button</button>
+    </div>
+  </div>
+
+  
+ <section class="">
+  
+  <div class="container mt-2 p-4" style="background-color: #262626;">
+      <input class="form-control" type="text" placeholder="Filter selection">
+      <div>
+        <form class="mt-2">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <input type="text" class="form-control" placeholder="Loram Iporam">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <input type="text" class="form-control" placeholder="Loram Iporam">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12"> 
+              <i class="fa-solid fa-play bg-warning p-2"></i>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+  <div class="container mt-2 p-4 bg-secondary">
+    <p>Table Name</p>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+        <select class="form-select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="">
+          <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+      </div>
+      <table class="table table-dark mt-2">
+        <thead>
+          <tr>
+            <th scope="col">loram iporam</th>
+            <th scope="col">loram iporam</th>
+            <th scope="col">loram iporam</th>
+            <th scope="col">Status</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">loram iporam</th>
+            <td>Development</td>
+            <td>7</td>
+            <td class="text-success">ON</td>
+            <td><i class="fa-solid fa-bars-progress"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">loram iporam</th>
+            <td>Development</td>
+            <td>7</td>
+            <td class="text-danger">OFF</td>
+            <td><i class="fa-solid fa-bars-progress"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">loram iporam</th>
+            <td>Development</td>
+            <td>7</td>
+            <td class="text-success">ON</td>
+            <td><i class="fa-solid fa-bars-progress"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">loram iporam</th>
+            <td>Development</td>
+            <td>7</td>
+            <td class="text-danger">OFF</td>
+            <td><i class="fa-solid fa-bars-progress"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">loram iporam</th>
+            <td>Development</td>
+            <td>7</td>
+            <td class="text-success">ON</td>
+            <td><i class="fa-solid fa-bars-progress"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> 
+ </section>
+
+ <section>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <div class="card" >
+            <div class="card-body d-flex">
+              <h5 class="card-title">Lorem Iporam</h5>
+              <i class="fa-solid fa-star-of-life ms-auto"></i>     
+            </div>
+            <div class="card-body d-flex">
+              <h5 class="card-title text-success">5</h5>
+              <i class="fa-solid fa-arrow-right ms-auto"></i>     
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <div class="card">
+            <div class="card-body d-flex">
+              <h5 class="card-title ">Lorem Iporam</h5>
+              <i class="fa-solid fa-star-of-life ms-auto"></i>     
+            </div>
+            <div class="card-body d-flex">
+              <h5 class="card-title text-warning">7 </h5>
+              <i class="fa-solid fa-arrow-right ms-auto"></i>     
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+          <div class="card" >
+            <div class="card-body d-flex">
+              <h5 class="card-title">Lorem Iporam</h5>
+              <i class="fa-solid fa-star-of-life ms-auto"></i>     
+            </div>
+            <div class="card-body d-flex">
+              <h5 class="card-title">8/<span class="text-primary">50</span></h5>
+              <i class="fa-solid fa-arrow-right ms-auto"></i>     
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+          <div class="card" >
+            <div class="card-body d-flex">
+              <h5 class="card-title">Lorem Iporam</h5>
+              <i class="fa-solid fa-star-of-life ms-auto"></i>     
+            </div>
+            <div class="card-body d-flex">
+              <h5 class="card-title text-primary">2</h5>
+              <i class="fa-solid fa-arrow-right ms-auto"></i>     
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container bg-secondary mt-2">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+        <form>
+          <div class="form-row d-flex ">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Phone">Phone Number</label>
+              <input type="number" class="form-control" id="inputNumber" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputName">Full Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Ankita Shah">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row d-flex">
+            <div class="form-group col-md-3">
+              <label for="inputZip">Post Code</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="Enter your post code">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Enter your city">
+            </div> 
+          </div>
+          <div class="form-row d-flex">
+            <div class="form-group col-md-3">
+              <label for="inputZip">Latitude</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputCity">Logitude</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div> 
+          </div>
+
+         
+          <button type="submit" class="btn btn-warning ms-auto">Submit</button>
+        </form>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15249822.21961233!2d82.75252935!3d21.068622799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1702297635290!5m2!1sen!2sin" 
+                width="560" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>       
+ </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+            crossorigin="anonymous"></script>
+</body>
+</html>
