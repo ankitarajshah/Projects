@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    background-color: rgb(32, 30, 30);
+    color: white;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+}
+.choice{
+  height: 50px;
+  width: 50px;
+}
+
